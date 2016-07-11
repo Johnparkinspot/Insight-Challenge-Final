@@ -34,9 +34,9 @@ struct timeStamp {
 class graphnode {
 public:
     // default constructor
-    graphnode(vector<node *> in = vector<node *>())
+    graphnode()
     {
-        nodeandedge = in;
+        nodeandedge = std::vector<node *>();
     }
 
     //insertion functions:
