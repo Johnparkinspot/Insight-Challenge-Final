@@ -5,7 +5,7 @@
 
 # I'll execute my programs, with the input directory venmo_input and output the files in the directory venmo_output
 
-g++ -I/Insight\ Challenge\ Final -o main ./src/main.cpp ./src/graph.h ./src/graph.cpp
+g++ -o main ./src/main.cpp ./src/graph.h ./src/graph.cpp
 
 ./main venmo_input/venmo-trans.txt venmo_output/output.txt 
 
